@@ -1,0 +1,11 @@
+# dsh-owlrunkit bundle patch.
+#
+# One Host row serves the OwlCoda RunKit skill from the copy packed inside this
+# package. The row registers a skill provider, so no file is copied into
+# ~/.dsh/skills or ~/.agents/skills and the skill appears in the session
+# catalog as soon as the bundle is composed.
+#
+# The package name in `name:` must match the installed package name exactly.
+- insert:
+    - id: dsh-owlrunkit
+      name: 'dsh-owlrunkit'

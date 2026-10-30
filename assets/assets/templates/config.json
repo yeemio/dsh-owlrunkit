@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "OwlCodaRunKitConfigV2",
+  "core": {
+    "contractVersion": "0.2",
+    "coreVersion": "0.24.1",
+    "coreManifestSha256": "sha256:94aaa2e3a6d504374fa78cfcd341e31b33087806c9ddf5f84b3d3b47a6328e08",
+    "coreSourceRef": "artifact:sha256:94aaa2e3a6d504374fa78cfcd341e31b33087806c9ddf5f84b3d3b47a6328e08"
+  },
+  "authorizationPolicy": "external_explicit_authority_required"
+}

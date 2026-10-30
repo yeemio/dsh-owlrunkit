@@ -1,0 +1,69 @@
+{
+  "name": "dsh-owlrunkit",
+  "version": "0.24.1",
+  "description": "DeepSeek Harness bundle that supplies the OwlCoda RunKit skill for receipt-backed, project-owned AI-agent delivery.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "agent",
+    "delivery",
+    "verification",
+    "evidence",
+    "runkit",
+    "owlcoda"
+  ],
+  "license": "MIT-0",
+  "author": {
+    "name": "OwlCoda contributors",
+    "url": "https://owlcoda.com"
+  },
+  "homepage": "https://github.com/yeemio/dsh-owlrunkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeemio/dsh-owlrunkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yeemio/dsh-owlrunkit/issues"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "lib/**/*.js",
+    "assets/**",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "engines": {
+    "node": ">=20.19.0",
+    "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "test": "node --test test/provider.test.mjs",
+    "check": "node --check lib/index.js && node --check test/provider.test.mjs"
+  }
+}

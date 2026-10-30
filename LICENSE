@@ -1,0 +1,37 @@
+MIT No Attribution (MIT-0)
+
+Copyright (c) OwlCoda contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the Software
+without restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+Scope note
+
+This MIT-0 license covers the `dsh-owlrunkit` package: the Cordis provider in
+`lib/`, the bundle patch, locales, icon, documentation, and the bundled skill
+copy under `assets/`.
+
+The bundled skill under `assets/` is the OwlCoda RunKit skill package and keeps
+its own `assets/LICENSE` (also MIT-0). It contains instructions,
+documentation, and JSON templates only.
+
+The `owlrunkit` command-line tool that the skill invokes is a separate and
+independent work, distributed under GPL-3.0-or-later. Neither this package nor
+the bundled skill contains any portion of that tool's source code; the skill
+invokes it only as an external process over the command line.
+
+The GPL-3.0-or-later license at the root of the repository that hosts this
+directory governs the repository as a whole and does not override the MIT-0
+grant above for this directory.
